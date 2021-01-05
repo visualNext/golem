@@ -19,5 +19,15 @@ Finally, sharpening an image makes it easier to see important details. Text beco
 # Straight out of camera file     v.s.    Sharpened file
 ![golem](./vs.jpg)
 
+# Installation
+```
+npm install
+```
+```
+npm run start
+```
+open your browser and go to:
+http://localhost:3000/
+
 # Reference 
 https://photography.tutsplus.com/tutorials/what-is-image-sharpening--cms-26627
