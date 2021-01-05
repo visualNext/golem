@@ -31,3 +31,9 @@ http://localhost:3000/
 
 # Reference 
 https://photography.tutsplus.com/tutorials/what-is-image-sharpening--cms-26627
+
+# Demo Video : How to use? 
+
+Click below to watch demo video in youtube:
+
+[![Watch the video](https://img.youtube.com/vi/ShulT1C-kCE/hqdefault.jpg)](https://youtu.be/ShulT1C-kCE)
