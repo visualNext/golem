@@ -1,6 +1,7 @@
 # Golem Image Sharpening
 
 Using golem to sharpen your images.
+GPL Version-3 license
 
 # Why Sharpen Images?
 
