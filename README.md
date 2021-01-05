@@ -20,12 +20,22 @@ Finally, sharpening an image makes it easier to see important details. Text beco
 ![golem](./vs.jpg)
 
 # Installation
+Step 1:
+Follow Golem Tutorial https://handbook.golem.network/requestor-tutorials/flash-tutorial-of-requestor-development
+```
+yagna service run
+yagna payment init -r
+python3 -m venv ~/.envs/yagna-python-tutorial
+source ~/.envs/yagna-python-tutorial/bin/activate
+export YAGNA_APPKEY=insert-your-32-char-app-key-here
+```
+Step 2:
+Run Frontend
 ```
 npm install
-```
-```
 npm run start
 ```
+Step 3:
 open your browser and go to:
 http://localhost:3000/
 
