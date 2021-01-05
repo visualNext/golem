@@ -1,0 +1,182 @@
+[2021-01-05 18:03:34,455 INFO yapapi.executor] Using log file `blender-yapapi.log`; in case of errors look for additional information there
+[2021-01-05 18:03:34,790 DEBUG yapapi.events] ComputationStarted()
+[2021-01-05 18:03:35,755 DEBUG yapapi.events] SubscriptionCreated(sub_id='2a54052ab5d142ea818b0755f7477502-13f6ba72298939bdee3e5737ff68c50249a8025e9488ce23ce3c3b6b103844ac')
+[2021-01-05 18:03:35,756 INFO yapapi.summary] Demand published on the market
+[2021-01-05 18:03:35,788 DEBUG yapapi.events] ProposalReceived(prop_id='R-6ca084a36c80e0417d7b899a64c194e5b9e1452495187b9e36805a4aace34d61', provider_id='0xef72927cde5a9cf2774578050be45c9aaeb4593f')
+[2021-01-05 18:03:36,124 DEBUG yapapi.events] ProposalResponded(prop_id='R-6ca084a36c80e0417d7b899a64c194e5b9e1452495187b9e36805a4aace34d61')
+[2021-01-05 18:03:36,124 DEBUG yapapi.events] ProposalReceived(prop_id='R-a9d416722318231a2e640189ac36653705070163ddd6ed2133d9a7edc8205c4a', provider_id='0x19a9a55416bbd7801e95cbd060845e12e7338330')
+[2021-01-05 18:03:36,412 DEBUG yapapi.events] ProposalFailed(prop_id='R-a9d416722318231a2e640189ac36653705070163ddd6ed2133d9a7edc8205c4a', reason='(500)\nReason: Internal Server Error\nHTTP response headers: <CIMultiDictProxy(\'Content-Length\': \'441\', \'Content-Type\': \'application/json\', \'Date\': \'Tue, 05 Jan 2021 10:03:36 GMT\')>\nHTTP response body: {"message":"Failed to send counter Proposal for Proposal [R-a9d416722318231a2e640189ac36653705070163ddd6ed2133d9a7edc8205c4a]. Error: Countering Proposal [R-1695aff852c033ddf5bffa56c79b69d453a767384f550fd4690a5ce3dc8e7a29] GSB error: Remote service at `/net/0x19a9a55416bbd7801e95cbd060845e12e7338330/market/protocol/mk1/negotiation/provider/proposal/InitialProposalReceived` error: Bad request: No service registered under given address.."}\n')
+[2021-01-05 18:03:36,412 DEBUG yapapi.events] ProposalReceived(prop_id='R-6780d3866a7236228abbfc5ed7fba83eb87fcd9a55718cc442dc7182dd30ddd2', provider_id='0x99e65622d8d33620e8843c04475ba89038dcf02c')
+[2021-01-05 18:03:36,694 DEBUG yapapi.events] ProposalFailed(prop_id='R-6780d3866a7236228abbfc5ed7fba83eb87fcd9a55718cc442dc7182dd30ddd2', reason='(500)\nReason: Internal Server Error\nHTTP response headers: <CIMultiDictProxy(\'Content-Length\': \'441\', \'Content-Type\': \'application/json\', \'Date\': \'Tue, 05 Jan 2021 10:03:36 GMT\')>\nHTTP response body: {"message":"Failed to send counter Proposal for Proposal [R-6780d3866a7236228abbfc5ed7fba83eb87fcd9a55718cc442dc7182dd30ddd2]. Error: Countering Proposal [R-e783738d9390010f52ac9dc78f45bc609b10f7335144d75d3e53826ffc5e2baa] GSB error: Remote service at `/net/0x99e65622d8d33620e8843c04475ba89038dcf02c/market/protocol/mk1/negotiation/provider/proposal/InitialProposalReceived` error: Bad request: No service registered under given address.."}\n')
+[2021-01-05 18:03:36,695 DEBUG yapapi.events] ProposalReceived(prop_id='R-0b614b9c3600a3b64f7e676d93a35f08ed699711e8e17300de7da52666303dfa', provider_id='0x13821cd583f4d56a0f0dd70d539e4d15ba982ac0')
+[2021-01-05 18:03:37,300 DEBUG yapapi.events] ProposalFailed(prop_id='R-0b614b9c3600a3b64f7e676d93a35f08ed699711e8e17300de7da52666303dfa', reason='(500)\nReason: Internal Server Error\nHTTP response headers: <CIMultiDictProxy(\'Content-Length\': \'441\', \'Content-Type\': \'application/json\', \'Date\': \'Tue, 05 Jan 2021 10:03:37 GMT\')>\nHTTP response body: {"message":"Failed to send counter Proposal for Proposal [R-0b614b9c3600a3b64f7e676d93a35f08ed699711e8e17300de7da52666303dfa]. Error: Countering Proposal [R-ff97f3780f1b9022c0a540fd7cc064fad0ecd644bf9bbcb465b770e0e7e05e4e] GSB error: Remote service at `/net/0x13821cd583f4d56a0f0dd70d539e4d15ba982ac0/market/protocol/mk1/negotiation/provider/proposal/InitialProposalReceived` error: Bad request: No service registered under given address.."}\n')
+[2021-01-05 18:03:37,300 DEBUG yapapi.events] ProposalReceived(prop_id='R-a9315f40877b26dba047f8bb055f49a3e7a0846193aea66c1d17ac9febe6feae', provider_id='0x38cdc7044034fadebc2c884399d383d6b2253a22')
+[2021-01-05 18:03:37,583 DEBUG yapapi.events] ProposalFailed(prop_id='R-a9315f40877b26dba047f8bb055f49a3e7a0846193aea66c1d17ac9febe6feae', reason='(500)\nReason: Internal Server Error\nHTTP response headers: <CIMultiDictProxy(\'Content-Length\': \'441\', \'Content-Type\': \'application/json\', \'Date\': \'Tue, 05 Jan 2021 10:03:37 GMT\')>\nHTTP response body: {"message":"Failed to send counter Proposal for Proposal [R-a9315f40877b26dba047f8bb055f49a3e7a0846193aea66c1d17ac9febe6feae]. Error: Countering Proposal [R-135cc63a0ca6cee95fa4ea1091af85a1ef724e61fa4a994a317bbc39f44cf603] GSB error: Remote service at `/net/0x38cdc7044034fadebc2c884399d383d6b2253a22/market/protocol/mk1/negotiation/provider/proposal/InitialProposalReceived` error: Bad request: No service registered under given address.."}\n')
+[2021-01-05 18:03:37,583 DEBUG yapapi.events] ProposalReceived(prop_id='R-148909751e5b8da1d12dbb03df4d35a28906258ed03e5968e9f3169d3b5c7212', provider_id='0xf58ce0bb326804c11aceecbc6c7ba5da1a122659')
+[2021-01-05 18:03:37,870 DEBUG yapapi.events] ProposalFailed(prop_id='R-148909751e5b8da1d12dbb03df4d35a28906258ed03e5968e9f3169d3b5c7212', reason='(500)\nReason: Internal Server Error\nHTTP response headers: <CIMultiDictProxy(\'Content-Length\': \'441\', \'Content-Type\': \'application/json\', \'Date\': \'Tue, 05 Jan 2021 10:03:37 GMT\')>\nHTTP response body: {"message":"Failed to send counter Proposal for Proposal [R-148909751e5b8da1d12dbb03df4d35a28906258ed03e5968e9f3169d3b5c7212]. Error: Countering Proposal [R-792e5d2f6df3740cce24792e35328d8a42b6ac75b823258ef6af14f4d344e24e] GSB error: Remote service at `/net/0xf58ce0bb326804c11aceecbc6c7ba5da1a122659/market/protocol/mk1/negotiation/provider/proposal/InitialProposalReceived` error: Bad request: No service registered under given address.."}\n')
+[2021-01-05 18:03:37,871 DEBUG yapapi.events] ProposalReceived(prop_id='R-2d2cc69c65b01b2b8e0241fa5f2b73b512e3308be595347ee3c84d325196e262', provider_id='0x6f37d030f2cb5cb22f310902cbce2ecdf03a52dc')
+[2021-01-05 18:03:38,401 DEBUG yapapi.events] ProposalResponded(prop_id='R-2d2cc69c65b01b2b8e0241fa5f2b73b512e3308be595347ee3c84d325196e262')
+[2021-01-05 18:03:38,401 DEBUG yapapi.events] ProposalReceived(prop_id='R-8ca069ecc55d28b86f1f77868ca5f40c8b1820f72368af7590c14dfd6be59c72', provider_id='0x5be9a4e3475f6ad396eb5620b7ef60561314c8bd')
+[2021-01-05 18:03:38,785 DEBUG yapapi.events] ProposalResponded(prop_id='R-8ca069ecc55d28b86f1f77868ca5f40c8b1820f72368af7590c14dfd6be59c72')
+[2021-01-05 18:03:38,796 DEBUG yapapi.events] ProposalReceived(prop_id='R-236b3bc5dbc8386068451cc31696116efc8663474550cbaa435247a419eaa82e', provider_id='0x4e0dceefd7c43a02e1bb92e352e50722f671d66b')
+[2021-01-05 18:03:39,347 DEBUG yapapi.events] ProposalFailed(prop_id='R-236b3bc5dbc8386068451cc31696116efc8663474550cbaa435247a419eaa82e', reason='(500)\nReason: Internal Server Error\nHTTP response headers: <CIMultiDictProxy(\'Content-Length\': \'441\', \'Content-Type\': \'application/json\', \'Date\': \'Tue, 05 Jan 2021 10:03:39 GMT\')>\nHTTP response body: {"message":"Failed to send counter Proposal for Proposal [R-236b3bc5dbc8386068451cc31696116efc8663474550cbaa435247a419eaa82e]. Error: Countering Proposal [R-65e4033b55c7f80f06e45ad1330aa37ce180bf61e24ac9f67cde18a2cf566c7c] GSB error: Remote service at `/net/0x4e0dceefd7c43a02e1bb92e352e50722f671d66b/market/protocol/mk1/negotiation/provider/proposal/InitialProposalReceived` error: Bad request: No service registered under given address.."}\n')
+[2021-01-05 18:03:39,348 DEBUG yapapi.events] ProposalReceived(prop_id='R-02f6d3bbe075486c04288ef2e36ffa35494cdb4cd615f07ea82572416fd5544b', provider_id='0xe4bbd977ba8368f477116e9ba04d525b756463f7')
+[2021-01-05 18:03:40,111 DEBUG yapapi.events] ProposalResponded(prop_id='R-02f6d3bbe075486c04288ef2e36ffa35494cdb4cd615f07ea82572416fd5544b')
+[2021-01-05 18:03:40,111 DEBUG yapapi.events] ProposalReceived(prop_id='R-c9b428626c045ac67e34fdf86acd18e5057bdd566b48b5411e560067c5bd64e2', provider_id='0x3e80bbf91bead11bd6f4428985071ff7f96e996c')
+[2021-01-05 18:03:40,462 DEBUG yapapi.events] ProposalResponded(prop_id='R-c9b428626c045ac67e34fdf86acd18e5057bdd566b48b5411e560067c5bd64e2')
+[2021-01-05 18:03:40,462 DEBUG yapapi.events] ProposalReceived(prop_id='R-41b2c123ab632785af147b0c5e79bfc958988b780860c04b4ebead74fcb774d0', provider_id='0x067bbd86b1912a00d775f58cd55c812c99ad0dd7')
+[2021-01-05 18:03:41,037 DEBUG yapapi.events] ProposalResponded(prop_id='R-41b2c123ab632785af147b0c5e79bfc958988b780860c04b4ebead74fcb774d0')
+[2021-01-05 18:03:41,038 DEBUG yapapi.events] ProposalReceived(prop_id='R-a228dfef76ba49af1933edf7090f88c3aca65d19cc1b08f0146a974eb92f58c2', provider_id='0x5fd6472263822f4664a6fedd57db42d78ac99670')
+[2021-01-05 18:03:41,414 DEBUG yapapi.events] ProposalResponded(prop_id='R-a228dfef76ba49af1933edf7090f88c3aca65d19cc1b08f0146a974eb92f58c2')
+[2021-01-05 18:03:41,414 DEBUG yapapi.events] ProposalReceived(prop_id='R-18dd86f1ed63233180bebb93463b9a18d41d48ec781961c75017ea7e5900128d', provider_id='0x09cfac52d7b2ee40f326b3170fddd704cbc44f45')
+[2021-01-05 18:03:41,885 DEBUG yapapi.events] ProposalResponded(prop_id='R-18dd86f1ed63233180bebb93463b9a18d41d48ec781961c75017ea7e5900128d')
+[2021-01-05 18:03:41,885 DEBUG yapapi.events] ProposalReceived(prop_id='R-5503aa19061ea2230d69d5da896860b628d98c5dfd9f5b6ba1c3e513b9ce686d', provider_id='0x4a97cf4475e7b39d8e61584b72fe3f5bc997adf1')
+[2021-01-05 18:03:42,443 DEBUG yapapi.events] ProposalResponded(prop_id='R-5503aa19061ea2230d69d5da896860b628d98c5dfd9f5b6ba1c3e513b9ce686d')
+[2021-01-05 18:03:42,443 DEBUG yapapi.events] ProposalReceived(prop_id='R-3a4f0f4e728185810b6da6ccae576e21849ec9f3a42d01beea7fc7e5384b2e07', provider_id='0x5ec9bc58c5c0c003a8e6eec77a4fe16dcaf71d11')
+[2021-01-05 18:03:43,005 DEBUG yapapi.events] ProposalResponded(prop_id='R-3a4f0f4e728185810b6da6ccae576e21849ec9f3a42d01beea7fc7e5384b2e07')
+[2021-01-05 18:03:43,005 DEBUG yapapi.events] ProposalReceived(prop_id='R-70f173a93d25db91ab255aa56bdd9114f08e4d88b692c224ab8a916200ba68eb', provider_id='0xaa10285d671316518b2d4a281068b418b15ce648')
+[2021-01-05 18:03:43,516 DEBUG yapapi.events] ProposalResponded(prop_id='R-70f173a93d25db91ab255aa56bdd9114f08e4d88b692c224ab8a916200ba68eb')
+[2021-01-05 18:03:43,517 DEBUG yapapi.events] ProposalReceived(prop_id='R-d5e599b7b26bd3c0cd5f1c347785019a3fa6a97ec928ab5a1ef3c2525b6fe402', provider_id='0x1d3c9d52ec79a601cfa425a912d6ca8f3687ab4d')
+[2021-01-05 18:03:44,039 DEBUG yapapi.events] ProposalResponded(prop_id='R-d5e599b7b26bd3c0cd5f1c347785019a3fa6a97ec928ab5a1ef3c2525b6fe402')
+[2021-01-05 18:03:44,045 DEBUG yapapi.events] ProposalReceived(prop_id='R-e7c53fc9fdfefe241731d538ab298fd6b4b84425d9dd5d0f9c5006e2d96243f5', provider_id='0x2b30e29b879c30ed17eb8f97ed7017451aa053fa')
+[2021-01-05 18:03:44,446 DEBUG yapapi.events] ProposalResponded(prop_id='R-e7c53fc9fdfefe241731d538ab298fd6b4b84425d9dd5d0f9c5006e2d96243f5')
+[2021-01-05 18:03:44,446 DEBUG yapapi.events] ProposalReceived(prop_id='R-097178ff162367987d984e3ea4e7db3fa9eb25b2d85be02dd32afb86c34eee90', provider_id='0xed1ae9439db542288419e3d329cd286364027c82')
+[2021-01-05 18:03:45,135 DEBUG yapapi.events] ProposalResponded(prop_id='R-097178ff162367987d984e3ea4e7db3fa9eb25b2d85be02dd32afb86c34eee90')
+[2021-01-05 18:03:45,135 DEBUG yapapi.events] ProposalReceived(prop_id='R-2880b0547876d18c2f2d247b54ab390936b47fa4f540f3921d5735f10cf889c0', provider_id='0x97b84844bd3350962cf192b71e9c1be5863c286c')
+[2021-01-05 18:03:45,715 DEBUG yapapi.events] ProposalResponded(prop_id='R-2880b0547876d18c2f2d247b54ab390936b47fa4f540f3921d5735f10cf889c0')
+[2021-01-05 18:03:45,715 DEBUG yapapi.events] ProposalReceived(prop_id='R-f6abd530a5bec57cfba8b5a1a7995dff2ddf6b07ec955cb9688e5668a352485a', provider_id='0x4b5df1f31d7f6a72b725107548eef26a31573489')
+[2021-01-05 18:03:46,304 DEBUG yapapi.events] ProposalResponded(prop_id='R-f6abd530a5bec57cfba8b5a1a7995dff2ddf6b07ec955cb9688e5668a352485a')
+[2021-01-05 18:03:46,304 DEBUG yapapi.events] ProposalReceived(prop_id='R-b54a288b6406ca721c6038c83dd84e42169397ab1ede38aaa750e830ff31c039', provider_id='0xef72927cde5a9cf2774578050be45c9aaeb4593f')
+[2021-01-05 18:03:46,692 DEBUG yapapi.events] ProposalResponded(prop_id='R-b54a288b6406ca721c6038c83dd84e42169397ab1ede38aaa750e830ff31c039')
+[2021-01-05 18:03:46,692 DEBUG yapapi.events] ProposalReceived(prop_id='R-3bbdab2415b23f6ea1a87f18a4e19c5d8c6df57b3441231c1c990427609d70ea', provider_id='0x4f0067f76b9b630bbd584a382d63820db4f1044e')
+[2021-01-05 18:03:47,284 DEBUG yapapi.events] ProposalResponded(prop_id='R-3bbdab2415b23f6ea1a87f18a4e19c5d8c6df57b3441231c1c990427609d70ea')
+[2021-01-05 18:03:47,285 DEBUG yapapi.events] ProposalReceived(prop_id='R-2624d4b5a35fcc4897a868a999f682fd5593e235ef0db697b2e87ccb6d68e9e6', provider_id='0x212523304317a4241d65d969a75f1ff5420e48bf')
+[2021-01-05 18:03:47,763 DEBUG yapapi.events] ProposalResponded(prop_id='R-2624d4b5a35fcc4897a868a999f682fd5593e235ef0db697b2e87ccb6d68e9e6')
+[2021-01-05 18:03:47,763 DEBUG yapapi.events] ProposalReceived(prop_id='R-461dbc69565a5478a7c25ec27285a26fb75df3bec9834af1ebcf71cb414f2432', provider_id='0x05e8e8eac97d13daead90112eb037ce468862d11')
+[2021-01-05 18:03:48,443 DEBUG yapapi.events] ProposalResponded(prop_id='R-461dbc69565a5478a7c25ec27285a26fb75df3bec9834af1ebcf71cb414f2432')
+[2021-01-05 18:03:48,443 DEBUG yapapi.events] ProposalReceived(prop_id='R-a51064a7c9eaf174a79fe77f1f18b1481638b54ed97301a8c294f938967bcae2', provider_id='0x2d7c495965e68ebe535a8dbe77abb727594fe98a')
+[2021-01-05 18:03:48,844 DEBUG yapapi.events] ProposalResponded(prop_id='R-a51064a7c9eaf174a79fe77f1f18b1481638b54ed97301a8c294f938967bcae2')
+[2021-01-05 18:03:48,844 DEBUG yapapi.events] ProposalReceived(prop_id='R-9098cbbbd2137233cccbf8c69b692c1dad94451a7ec43cafc1ce9399eb7b09a5', provider_id='0xaa3ad86b1d28eb528c8db735581609997ee68151')
+[2021-01-05 18:03:49,412 DEBUG yapapi.events] ProposalResponded(prop_id='R-9098cbbbd2137233cccbf8c69b692c1dad94451a7ec43cafc1ce9399eb7b09a5')
+[2021-01-05 18:03:49,417 DEBUG yapapi.events] ProposalReceived(prop_id='R-e65a89898d11b367ef8c29ad7e09a82a50437b44d4a8adda7e52ab875570d503', provider_id='0x7abf368c5b875953495d12a6ca3270f90bbb36f2')
+[2021-01-05 18:03:49,924 DEBUG yapapi.events] ProposalResponded(prop_id='R-e65a89898d11b367ef8c29ad7e09a82a50437b44d4a8adda7e52ab875570d503')
+[2021-01-05 18:03:49,924 DEBUG yapapi.events] ProposalReceived(prop_id='R-bdf4f5e0e23ee105fb33c9efcc2802a2b6ca9dc0efe189d5ab193679cc8b78ab', provider_id='0x22dcb264421f786118b4db9ebb205f6d5b0797b5')
+[2021-01-05 18:03:50,259 DEBUG yapapi.events] ProposalResponded(prop_id='R-bdf4f5e0e23ee105fb33c9efcc2802a2b6ca9dc0efe189d5ab193679cc8b78ab')
+[2021-01-05 18:03:50,260 DEBUG yapapi.events] ProposalReceived(prop_id='R-9940ebb36dc2385cd0595519461a1e14a0ba028d996a17f095ba8cc011f35967', provider_id='0x107f5cdca699c5e349ffba4b048de5fff9d20baf')
+[2021-01-05 18:03:50,730 DEBUG yapapi.events] ProposalResponded(prop_id='R-9940ebb36dc2385cd0595519461a1e14a0ba028d996a17f095ba8cc011f35967')
+[2021-01-05 18:03:50,730 DEBUG yapapi.events] ProposalReceived(prop_id='R-0600351e5a7a5641b9db833dab47ee335fe3f798ac7c6d802e23659abc673875', provider_id='0x6f37d030f2cb5cb22f310902cbce2ecdf03a52dc')
+[2021-01-05 18:03:50,730 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-0600351e5a7a5641b9db833dab47ee335fe3f798ac7c6d802e23659abc673875')
+[2021-01-05 18:03:50,730 INFO yapapi.summary] Received proposals from 1 providers so far
+[2021-01-05 18:03:50,731 DEBUG yapapi.events] ProposalReceived(prop_id='R-ed66a2bc9dedfe1ed48b4bdeab3ff4abac1e724de4cd38a6c9ce117090187402', provider_id='0x5be9a4e3475f6ad396eb5620b7ef60561314c8bd')
+[2021-01-05 18:03:50,731 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-ed66a2bc9dedfe1ed48b4bdeab3ff4abac1e724de4cd38a6c9ce117090187402')
+[2021-01-05 18:03:50,731 INFO yapapi.summary] Received proposals from 2 providers so far
+[2021-01-05 18:03:50,731 DEBUG yapapi.events] ProposalReceived(prop_id='R-d9c2fe7dff0c68ac669868f80665462fdc82403ec0678232ccf51e60c8c2c360', provider_id='0xe4bbd977ba8368f477116e9ba04d525b756463f7')
+[2021-01-05 18:03:50,732 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-d9c2fe7dff0c68ac669868f80665462fdc82403ec0678232ccf51e60c8c2c360')
+[2021-01-05 18:03:50,732 INFO yapapi.summary] Received proposals from 3 providers so far
+[2021-01-05 18:03:50,732 DEBUG yapapi.events] ProposalReceived(prop_id='R-c93bd06f942c78197dec527f9083797311277191c5582a60f4ba8ac49c097a75', provider_id='0x3e80bbf91bead11bd6f4428985071ff7f96e996c')
+[2021-01-05 18:03:50,732 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-c93bd06f942c78197dec527f9083797311277191c5582a60f4ba8ac49c097a75')
+[2021-01-05 18:03:50,732 INFO yapapi.summary] Received proposals from 4 providers so far
+[2021-01-05 18:03:50,732 DEBUG yapapi.events] ProposalReceived(prop_id='R-a82395ffc44df7ba69df715182238bc41bc84cea7928a0c9fa90f66d785ec659', provider_id='0x067bbd86b1912a00d775f58cd55c812c99ad0dd7')
+[2021-01-05 18:03:50,732 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-a82395ffc44df7ba69df715182238bc41bc84cea7928a0c9fa90f66d785ec659')
+[2021-01-05 18:03:50,732 INFO yapapi.summary] Received proposals from 5 providers so far
+[2021-01-05 18:03:50,732 DEBUG yapapi.events] ProposalReceived(prop_id='R-44f5349e57051b866f82f7f2fe4634004e66c9296b30c43ad83757c6ed6a0af6', provider_id='0x5fd6472263822f4664a6fedd57db42d78ac99670')
+[2021-01-05 18:03:50,733 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-44f5349e57051b866f82f7f2fe4634004e66c9296b30c43ad83757c6ed6a0af6')
+[2021-01-05 18:03:50,733 INFO yapapi.summary] Received proposals from 6 providers so far
+[2021-01-05 18:03:50,733 DEBUG yapapi.events] ProposalReceived(prop_id='R-f69a2728152ae8fd96faf96058ed1314a94a293da770832566e45b1fdbafe27c', provider_id='0x09cfac52d7b2ee40f326b3170fddd704cbc44f45')
+[2021-01-05 18:03:50,733 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-f69a2728152ae8fd96faf96058ed1314a94a293da770832566e45b1fdbafe27c')
+[2021-01-05 18:03:50,733 INFO yapapi.summary] Received proposals from 7 providers so far
+[2021-01-05 18:03:50,738 DEBUG yapapi.events] ProposalReceived(prop_id='R-08f956bcfb03a7cddc1f52db82c986fc058f51bbee41812fe5f392bcb0ecc532', provider_id='0x4a97cf4475e7b39d8e61584b72fe3f5bc997adf1')
+[2021-01-05 18:03:50,739 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-08f956bcfb03a7cddc1f52db82c986fc058f51bbee41812fe5f392bcb0ecc532')
+[2021-01-05 18:03:50,739 INFO yapapi.summary] Received proposals from 8 providers so far
+[2021-01-05 18:03:50,739 DEBUG yapapi.events] ProposalReceived(prop_id='R-0a49de6c2363430f652843e91d56969e42ff52f4782564aa88137557fc39604b', provider_id='0x5ec9bc58c5c0c003a8e6eec77a4fe16dcaf71d11')
+[2021-01-05 18:03:50,739 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-0a49de6c2363430f652843e91d56969e42ff52f4782564aa88137557fc39604b')
+[2021-01-05 18:03:50,739 INFO yapapi.summary] Received proposals from 9 providers so far
+[2021-01-05 18:03:50,739 DEBUG yapapi.events] ProposalReceived(prop_id='R-a4ca0fd26f82c3e11e3b69c0f4d02c842390e4ee8caaf4396127413b9524f25a', provider_id='0xaa10285d671316518b2d4a281068b418b15ce648')
+[2021-01-05 18:03:50,740 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-a4ca0fd26f82c3e11e3b69c0f4d02c842390e4ee8caaf4396127413b9524f25a')
+[2021-01-05 18:03:50,740 INFO yapapi.summary] Received proposals from 10 providers so far
+[2021-01-05 18:03:50,740 DEBUG yapapi.events] ProposalReceived(prop_id='R-75823e924d8077e4b3f06cc73bd9a531b2aa2323d3a1cde1830023f3c95d91e1', provider_id='0x2b30e29b879c30ed17eb8f97ed7017451aa053fa')
+[2021-01-05 18:03:50,740 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-75823e924d8077e4b3f06cc73bd9a531b2aa2323d3a1cde1830023f3c95d91e1')
+[2021-01-05 18:03:50,740 INFO yapapi.summary] Received proposals from 11 providers so far
+[2021-01-05 18:03:50,740 DEBUG yapapi.events] ProposalReceived(prop_id='R-2b0dc45e78226e03d567e05476c12fbf0fa2a607e6f1ab323036e52aba125e7c', provider_id='0x1d3c9d52ec79a601cfa425a912d6ca8f3687ab4d')
+[2021-01-05 18:03:50,740 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-2b0dc45e78226e03d567e05476c12fbf0fa2a607e6f1ab323036e52aba125e7c')
+[2021-01-05 18:03:50,740 INFO yapapi.summary] Received proposals from 12 providers so far
+[2021-01-05 18:03:50,740 DEBUG yapapi.events] ProposalReceived(prop_id='R-64cc5d0254f809ebfc5988483fc12d4c7c458832c6cafc0953b7550fa2ec9b82', provider_id='0xed1ae9439db542288419e3d329cd286364027c82')
+[2021-01-05 18:03:50,740 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-64cc5d0254f809ebfc5988483fc12d4c7c458832c6cafc0953b7550fa2ec9b82')
+[2021-01-05 18:03:50,740 INFO yapapi.summary] Received proposals from 13 providers so far
+[2021-01-05 18:03:50,740 DEBUG yapapi.events] ProposalReceived(prop_id='R-4153be9787c6cdd5a5cb6423bf0e3284a336bc1e9fa660001dfc63240e103a5b', provider_id='0xef72927cde5a9cf2774578050be45c9aaeb4593f')
+[2021-01-05 18:03:50,740 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-4153be9787c6cdd5a5cb6423bf0e3284a336bc1e9fa660001dfc63240e103a5b')
+[2021-01-05 18:03:50,741 INFO yapapi.summary] Received proposals from 14 providers so far
+[2021-01-05 18:03:50,741 DEBUG yapapi.events] ProposalReceived(prop_id='R-277f00412558ddbe3101b172b3aad2b3bef4856d13506ca282b3d3413eb922f8', provider_id='0x97b84844bd3350962cf192b71e9c1be5863c286c')
+[2021-01-05 18:03:50,741 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-277f00412558ddbe3101b172b3aad2b3bef4856d13506ca282b3d3413eb922f8')
+[2021-01-05 18:03:50,741 INFO yapapi.summary] Received proposals from 15 providers so far
+[2021-01-05 18:03:50,741 DEBUG yapapi.events] ProposalReceived(prop_id='R-2add2ab5efabb451c563c51c71f5d649726de8efeb89a250ff86dc9a877779a2', provider_id='0x4f0067f76b9b630bbd584a382d63820db4f1044e')
+[2021-01-05 18:03:50,741 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-2add2ab5efabb451c563c51c71f5d649726de8efeb89a250ff86dc9a877779a2')
+[2021-01-05 18:03:50,741 INFO yapapi.summary] Received proposals from 16 providers so far
+[2021-01-05 18:03:50,741 DEBUG yapapi.events] ProposalReceived(prop_id='R-c7502e1763603b9e13a81cd87e1ce3b390f1647c15eacab4043c462ab03da21b', provider_id='0x212523304317a4241d65d969a75f1ff5420e48bf')
+[2021-01-05 18:03:50,741 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-c7502e1763603b9e13a81cd87e1ce3b390f1647c15eacab4043c462ab03da21b')
+[2021-01-05 18:03:50,741 INFO yapapi.summary] Received proposals from 17 providers so far
+[2021-01-05 18:03:50,743 DEBUG yapapi.events] ProposalReceived(prop_id='R-ddca79a8cb555501f958fb1feb24369d87412061f6c23b6803aa2d89bf7a4c0f', provider_id='0x05e8e8eac97d13daead90112eb037ce468862d11')
+[2021-01-05 18:03:50,743 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-ddca79a8cb555501f958fb1feb24369d87412061f6c23b6803aa2d89bf7a4c0f')
+[2021-01-05 18:03:50,743 INFO yapapi.summary] Received proposals from 18 providers so far
+[2021-01-05 18:03:50,743 DEBUG yapapi.events] ProposalReceived(prop_id='R-955f78f600e52fc107c0674698dd086060402dbc3cc557770226e99b1eb44daf', provider_id='0x22dcb264421f786118b4db9ebb205f6d5b0797b5')
+[2021-01-05 18:03:50,743 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-955f78f600e52fc107c0674698dd086060402dbc3cc557770226e99b1eb44daf')
+[2021-01-05 18:03:50,743 INFO yapapi.summary] Received proposals from 19 providers so far
+[2021-01-05 18:03:50,852 DEBUG yapapi.events] ProposalReceived(prop_id='R-a78424cba55909da57ce2e1d0a81f5b1ebc48f2bb3f6523275494945e062a197', provider_id='0x107f5cdca699c5e349ffba4b048de5fff9d20baf')
+[2021-01-05 18:03:50,852 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-a78424cba55909da57ce2e1d0a81f5b1ebc48f2bb3f6523275494945e062a197')
+[2021-01-05 18:03:50,852 INFO yapapi.summary] Received proposals from 20 providers so far
+[2021-01-05 18:03:51,136 DEBUG yapapi.events] ProposalReceived(prop_id='R-d36f712a865a958bdd617491d9fc4b7ce60ebe379184903de98773940db03fa4', provider_id='0xaa3ad86b1d28eb528c8db735581609997ee68151')
+[2021-01-05 18:03:51,136 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-d36f712a865a958bdd617491d9fc4b7ce60ebe379184903de98773940db03fa4')
+[2021-01-05 18:03:51,136 INFO yapapi.summary] Received proposals from 21 providers so far
+[2021-01-05 18:03:51,418 DEBUG yapapi.events] ProposalReceived(prop_id='R-7ef98ef330b48db826ba752ab7b285ec22e48b7110a6da634070d74800cf1b45', provider_id='0x7abf368c5b875953495d12a6ca3270f90bbb36f2')
+[2021-01-05 18:03:51,418 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-7ef98ef330b48db826ba752ab7b285ec22e48b7110a6da634070d74800cf1b45')
+[2021-01-05 18:03:51,418 INFO yapapi.summary] Received proposals from 22 providers so far
+[2021-01-05 18:03:51,792 DEBUG yapapi.events] AgreementCreated(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', provider_id=NodeInfo(name='l-kh', subnet_tag='community.3'))
+[2021-01-05 18:03:51,792 INFO yapapi.summary] Agreement proposed to provider 'l-kh'
+[2021-01-05 18:03:53,811 DEBUG yapapi.events] AgreementConfirmed(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47')
+[2021-01-05 18:03:53,811 INFO yapapi.summary] Agreement confirmed by provider 'l-kh'
+[2021-01-05 18:03:53,812 DEBUG yapapi.events] WorkerStarted(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47')
+[2021-01-05 18:03:54,293 DEBUG yapapi.events] ProposalReceived(prop_id='R-a1697516a193e1af85a028733450b0675250b1d99aaca26d71381b86fadabc31', provider_id='0x4b5df1f31d7f6a72b725107548eef26a31573489')
+[2021-01-05 18:03:54,887 DEBUG yapapi.events] ProposalResponded(prop_id='R-a1697516a193e1af85a028733450b0675250b1d99aaca26d71381b86fadabc31')
+[2021-01-05 18:03:55,168 DEBUG yapapi.events] ActivityCreated(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', act_id='e00eb19da0e14895a2309ad05c495bc5')
+[2021-01-05 18:03:55,168 DEBUG yapapi.events] TaskStarted(task_id='1', agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', task_data=0)
+[2021-01-05 18:03:55,628 DEBUG yapapi.events] ScriptSent(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', task_id='1', cmds=[{'deploy': {}}, {'start': {}}, {'transfer': {'from': 'gftp://0x4e089225f8c9895878d5c1e43de0432e8f16d9ba/ce517ef2ba2bd41d6d9623736e1b84b74779f0d7036e26d120006cb5fa3b96e4', 'to': 'container:/golem/resource/demo.jpg'}}, {'run': {'entry_point': '/golem/entrypoints/run-blender.sh', 'args': (), 'capture': {'stdout': {'stream': {}}, 'stderr': {'stream': {}}}}}, {'transfer': {'from': 'container:/golem/output/demo.png', 'to': 'gftp://0x4e089225f8c9895878d5c1e43de0432e8f16d9ba/WQc4NxCMYNzMsIPFC32fo0VH4DHKP1pwu4R2hwQgdeyiH0LNnrWTAh3zVxMD5goGk'}}])
+[2021-01-05 18:03:55,629 INFO yapapi.summary] Task sent to provider 'l-kh', task data: 0
+[2021-01-05 18:03:55,889 DEBUG yapapi.events] ProposalReceived(prop_id='R-b3f2bc6f803b0ad590b3ee9202086ddbfeec67cf9643dcec1387ecfe78e4ff45', provider_id='0x4b5df1f31d7f6a72b725107548eef26a31573489')
+[2021-01-05 18:03:55,889 DEBUG yapapi.events] ProposalConfirmed(prop_id='R-b3f2bc6f803b0ad590b3ee9202086ddbfeec67cf9643dcec1387ecfe78e4ff45')
+[2021-01-05 18:03:55,890 INFO yapapi.summary] Received proposals from 23 providers so far
+[2021-01-05 18:04:01,260 DEBUG yapapi.events] CommandStdOut(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', task_id='1', cmd_idx=0, output='{"valid":{"Ok":""},"vols":[{"name":"vol-fd405e9a-7ca0-46cb-a2ef-8aed66a661f6","path":"/golem/work"},{"name":"vol-e3465cd9-8470-413b-b03d-f87bf55fd9f1","path":"/golem/output"},{"name":"vol-88616d19-ca67-4cfd-b9b7-f38ed8e2a92b","path":"/golem/resource"}],"startMode":"blocking"}\n')
+[2021-01-05 18:04:01,263 DEBUG yapapi.events] CommandExecuted(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', task_id='1', cmd_idx=0, command={'deploy': {}}, success=True, message=None)
+[2021-01-05 18:04:01,264 DEBUG yapapi.events] CommandStarted(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', task_id='1', cmd_idx=1, command={'start': {'args': []}})
+[2021-01-05 18:04:08,380 DEBUG yapapi.events] CommandExecuted(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', task_id='1', cmd_idx=1, command={'start': {}}, success=True, message=None)
+[2021-01-05 18:04:08,380 DEBUG yapapi.events] CommandStarted(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', task_id='1', cmd_idx=2, command={'transfer': {'from': 'gftp://0x4e089225f8c9895878d5c1e43de0432e8f16d9ba/ce517ef2ba2bd41d6d9623736e1b84b74779f0d7036e26d120006cb5fa3b96e4', 'to': 'container:/golem/resource/demo.jpg', 'format': None, 'depth': None, 'fileset': None}})
+[2021-01-05 18:04:10,122 DEBUG yapapi.events] CommandExecuted(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', task_id='1', cmd_idx=2, command={'transfer': {'from': 'gftp://0x4e089225f8c9895878d5c1e43de0432e8f16d9ba/ce517ef2ba2bd41d6d9623736e1b84b74779f0d7036e26d120006cb5fa3b96e4', 'to': 'container:/golem/resource/demo.jpg'}}, success=True, message=None)
+[2021-01-05 18:04:10,122 DEBUG yapapi.events] CommandStarted(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', task_id='1', cmd_idx=3, command={'run': {'entry_point': '/golem/entrypoints/run-blender.sh', 'args': [], 'capture': {'stdout': {'stream': {}}, 'stderr': {'stream': {}}}}})
+[2021-01-05 18:04:11,662 DEBUG yapapi.events] CommandExecuted(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', task_id='1', cmd_idx=3, command={'run': {'entry_point': '/golem/entrypoints/run-blender.sh', 'args': (), 'capture': {'stdout': {'stream': {}}, 'stderr': {'stream': {}}}}}, success=True, message=None)
+[2021-01-05 18:04:11,663 DEBUG yapapi.events] CommandStarted(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', task_id='1', cmd_idx=4, command={'transfer': {'from': 'container:/golem/output/demo.png', 'to': 'gftp://0x4e089225f8c9895878d5c1e43de0432e8f16d9ba/WQc4NxCMYNzMsIPFC32fo0VH4DHKP1pwu4R2hwQgdeyiH0LNnrWTAh3zVxMD5goGk', 'format': None, 'depth': None, 'fileset': None}})
+[2021-01-05 18:04:20,140 DEBUG yapapi.events] CommandExecuted(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', task_id='1', cmd_idx=4, command={'transfer': {'from': 'container:/golem/output/demo.png', 'to': 'gftp://0x4e089225f8c9895878d5c1e43de0432e8f16d9ba/WQc4NxCMYNzMsIPFC32fo0VH4DHKP1pwu4R2hwQgdeyiH0LNnrWTAh3zVxMD5goGk'}}, success=True, message=None)
+[2021-01-05 18:04:20,141 DEBUG yapapi.events] GettingResults(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', task_id='1')
+[2021-01-05 18:04:20,141 DEBUG yapapi.events] DownloadStarted(path='/golem/output/demo.png')
+[2021-01-05 18:04:20,142 DEBUG yapapi.events] DownloadFinished(path='output.png')
+[2021-01-05 18:04:20,142 DEBUG yapapi.events] ScriptFinished(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', task_id='1')
+[2021-01-05 18:04:20,142 INFO yapapi.summary] Task computed by provider 'l-kh', task data: 0
+[2021-01-05 18:04:20,142 DEBUG yapapi.events] PaymentPrepared(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47')
+[2021-01-05 18:04:20,142 DEBUG yapapi.events] PaymentQueued(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47')
+[2021-01-05 18:04:20,142 DEBUG yapapi.events] TaskAccepted(task_id='1', result='output.png')
+[2021-01-05 18:04:20,142 DEBUG yapapi.executor] status in-progress=0, have_item=False
+[2021-01-05 18:04:20,143 DEBUG yapapi.rest] Closing activity e00eb19da0e14895a2309ad05c495bc5
+[2021-01-05 18:04:20,144 DEBUG yapapi.executor] Waiting for 1 workers to finish...
+[2021-01-05 18:04:20,144 DEBUG yapapi.events] ComputationFinished(exc_info=None)
+[2021-01-05 18:04:20,144 INFO yapapi.summary] Computation finished in 45.4s
+[2021-01-05 18:04:20,144 INFO yapapi.summary] Negotiated 1 agreements with 1 providers
+[2021-01-05 18:04:20,144 INFO yapapi.summary] Provider 'l-kh' computed 1 tasks
+[2021-01-05 18:04:21,708 DEBUG yapapi.rest] Destroying activity e00eb19da0e14895a2309ad05c495bc5...
+[2021-01-05 18:04:22,920 DEBUG yapapi.rest] Activity e00eb19da0e14895a2309ad05c495bc5 closed
+[2021-01-05 18:04:22,920 DEBUG yapapi.events] PaymentPrepared(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47')
+[2021-01-05 18:04:22,921 DEBUG yapapi.events] PaymentQueued(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47')
+[2021-01-05 18:04:22,921 DEBUG yapapi.events] WorkerFinished(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', exc_info=None)
+[2021-01-05 18:04:23,812 DEBUG yapapi.events] InvoiceReceived(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', inv_id='0e5c39c3-3333-4f58-b35b-c6adba42356d', amount='0.01837338506527778')
+[2021-01-05 18:04:24,343 DEBUG yapapi.events] PaymentAccepted(agr_id='4d2451e24a09fc358131af2b94ef57ec76871f178ef91009f6159f7df9ff9e47', inv_id='0e5c39c3-3333-4f58-b35b-c6adba42356d', amount='0.01837338506527778')
+[2021-01-05 18:04:24,343 DEBUG yapapi.executor] Waiting for all services to finish...
+[2021-01-05 18:04:24,360 DEBUG yapapi.events] ShutdownFinished(exc_info=None)
+[2021-01-05 18:04:24,360 INFO yapapi.summary] Total cost: 0.01837338506527778
+[2021-01-05 18:04:24,360 INFO yapapi.summary] Executor shut down, total time: 49.6s

@@ -1,0 +1,22 @@
+.container {
+
+}
+
+.col-6 {
+  float: left;
+  flex: 0 0 100%;
+  width: 50%;
+}
+
+.col-6 img {
+  width: 90%;
+  display:block;
+  margin:auto;
+}
+
+.col-12 {
+  clear:both;
+  margin-top: 10px;
+  flex: 0 0 100%;
+  width: 100%;
+}
