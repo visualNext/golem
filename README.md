@@ -1,6 +1,6 @@
 # Golem Image Sharpening
 
-By using golem, we could apply to image sharpening.
+Using golem to sharpen your images.
 
 # Why Sharpen Images?
 
@@ -36,4 +36,5 @@ https://photography.tutsplus.com/tutorials/what-is-image-sharpening--cms-26627
 
 Click below to watch demo video in youtube:
 
-[![Watch the video](https://img.youtube.com/vi/ShulT1C-kCE/hqdefault.jpg)](https://youtu.be/ShulT1C-kCE)
+[![Watch the video](https://img.youtube.com/vi/Y95OLHVt9G0/hqdefault.jpg)](https://youtu.be/Y95OLHVt9G0)
+
