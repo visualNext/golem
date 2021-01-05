@@ -26,8 +26,6 @@ import utils  # noqa
 async def main(subnet_tag: str):
     package = await vm.repo(
         image_hash="e89373ad53cad2ff2f0dfef063b91f9612c2faea388b204167aed272",
-        # 沒問題的
-        # image_hash="add36ae00114da272768d9c7e12f226d94020b8385abe7c93faa3513",
         min_mem_gib=0.5,
         min_storage_gib=2.0,
     )
@@ -36,25 +34,6 @@ async def main(subnet_tag: str):
         scene_path = str(script_dir / "demo.jpg")
         ctx.send_file(scene_path, "/golem/resource/demo.jpg")
         async for task in tasks:
-            # frame = task.data
-            # crops = [{"outfilebasename": "out", "borders_x": [
-            #     0.0, 1.0], "borders_y": [0.0, 1.0]}]
-            # ctx.send_json(
-            #     "/golem/work/params.json",
-            #     {
-            #         "scene_file": "/golem/resource/scene.blend",
-            #         "resolution": (400, 300),
-            #         "use_compositing": False,
-            #         "crops": crops,
-            #         "samples": 100,
-            #         "frames": [frame],
-            #         "output_format": "PNG",
-            #         "RESOURCES_DIR": "/golem/resources",
-            #         "WORK_DIR": "/golem/work",
-            #         "OUTPUT_DIR": "/golem/output",
-            #     },
-            # )
-            #ctx.send_file("demo.jpg","/golem/")
             ctx.run("/golem/entrypoints/run-blender.sh")
             output_file = "output.png"
             ctx.download_file("/golem/output/demo.png", output_file)
